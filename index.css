@@ -44,7 +44,7 @@
 }
 
 .cuisines {
-  min-height: 75px;
+  min-height: 55px;
 }
 
 .search {
@@ -54,4 +54,30 @@
 .res-logo {
   width: -webkit-fill-available;
   height: 125px;
+}
+
+.filter {
+  display: flex;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+}
+
+.login {
+  padding: 0 10px;
+  cursor: pointer;
 }

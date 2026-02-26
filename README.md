@@ -63,3 +63,40 @@
 -     <h1 className="heading">Namaste React Functional Component</h1>
 - </div>
 - );
+
+# Namaste Food App
+
+/\*\*
+
+- Header
+- - Logo
+- - NavItems
+- Body
+- - Search
+- - RestaurantContainer
+-   - Card
+-     - Image
+-     - Name Of Restaurant, Star Rating, Cuisine, Delivery Time
+- Footer
+- - Copyright
+- - Links
+- - Address
+- - Contact
+    \*/
+
+- Two Types of Export / Import
+
+- Default Export / Import
+
+export default Component;
+import Component from "path";
+
+- Named Export / Import
+
+export Component;
+import {Component} from "path";
+
+# React Hooks
+  (Normal JS Utility Functions)
+-  useState() - Super powerful state variables in react
+-  useEffect() -
