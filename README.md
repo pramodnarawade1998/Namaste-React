@@ -74,7 +74,7 @@
 - Body
 - - Search
 - - RestaurantContainer
--   - Card
+- - Card
 -     - Image
 -     - Name Of Restaurant, Star Rating, Cuisine, Delivery Time
 - Footer
@@ -97,6 +97,32 @@ export Component;
 import {Component} from "path";
 
 # React Hooks
-  (Normal JS Utility Functions)
--  useState() - Super powerful state variables in react
--  useEffect() -
+
+(Normal JS Utility Functions)
+
+- useState() - Super powerful state variables in react
+- useEffect() -
+
+- Never called useState hook outside the component.
+- Always keep the hooks at the top of scope.
+- Don't use useState inside a conditional statement.
+- const [btnNameReact, setBtnNameReact] = useState("Login");
+
+- if no dependency array => useEffect is called on every render.
+- useEffect(() => {
+- console.log("useEffect Called");
+- });
+
+- if dependency array is empty = [] => useEffect is called on initial render (just once).
+- useEffect(() => {
+- console.log("useEffect Called");
+- }, []);
+
+- if dependency array is [btnNameReact] => useEffect is called everytime btnNameReact is updated, then
+- useEffect(() => {
+- console.log("useEffect Called");
+- }, [btnNameReact]);
+
+- Two types of Routing -
+- 1. Client Side Routing
+- 2. Server Side Routing

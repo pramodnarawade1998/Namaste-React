@@ -2042,4 +2042,2123 @@ const resList = [
   },
 ];
 
-export default resList;
+export const mockMenuData = {
+  data: {
+    cards: [
+      {
+        card: {
+          card: {
+            info: {
+              id: "24441",
+              name: "Domino's Pizza",
+              city: "Pune",
+              slugs: {
+                restaurant: "dominos-pizzaaaaaa-suratwala-mark-plazo-hinjewadi",
+                city: "pune",
+              },
+              uniqueId: "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              cloudinaryImageId:
+                "RX_THUMBNAIL/IMAGES/VENDOR/2025/11/11/a02510f2-18cf-4a30-969d-eec394391f5c_24441.JPG",
+              locality: "Hinjewadi",
+              areaName: "Hinjawadi",
+              costForTwo: "40000",
+              costForTwoMessage: "₹400 for two",
+              cuisines: ["Pizzas", "Italian"],
+              avgRating: 4.3,
+              feeDetails: {
+                restaurantId: "24441",
+                icon: "dominos_cod_xc6inc",
+              },
+              parentId: "2456",
+              avgRatingString: "4.3",
+              totalRatingsString: "13K+ ratings",
+              sla: {
+                restaurantId: "24441",
+                deliveryTime: 25,
+                minDeliveryTime: 20,
+                maxDeliveryTime: 25,
+                lastMileTravel: 3.7,
+                serviceability: "SERVICEABLE",
+                rainMode: "RAIN_MODE_NONE",
+                longDistance: "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                zoneId: 89,
+                slaString: "20-25 MINS",
+                lastMileTravelString: "3.7 km",
+                iconType: "ICON_TYPE_EMPTY",
+              },
+              availability: {
+                nextCloseTime: "2026-03-02 23:59:00",
+                visibility: true,
+                opened: true,
+                restaurantClosedMeta: {},
+              },
+              aggregatedDiscountInfo: {
+                header: "Get items under 59",
+                shortDescriptionList: [
+                  {
+                    meta: "99 store",
+                    discountType: "FinalPrice",
+                    operationType: "RESTAURANT",
+                  },
+                  {
+                    meta: "Flat ₹80 off on orders above ₹199",
+                    discountType: "Flat",
+                    operationType: "RESTAURANT",
+                  },
+                ],
+                descriptionList: [
+                  {
+                    meta: "99 store",
+                    discountType: "FinalPrice",
+                    operationType: "RESTAURANT",
+                  },
+                  {
+                    meta: "Flat ₹80 off on orders above ₹199 | Use code WELCOMEDOM",
+                    discountType: "Flat",
+                    operationType: "RESTAURANT",
+                  },
+                ],
+                visible: true,
+              },
+              badges: {},
+              slugString: "dominos-pizzaaaaaa-suratwala-mark-plazo-hinjewadi",
+              isOpen: true,
+              labels: [
+                {
+                  title: "Timings",
+                  message: "null",
+                },
+                {
+                  title: "Address",
+                  message:
+                    "Showroom No1 Ground Floor Hinjawadi Tal-Mulshi Dist-Puna Maharashtra 411057",
+                },
+                {
+                  title: "Cuisines",
+                  message: "Pizzas,Italian",
+                },
+              ],
+              totalRatings: 13000,
+              aggregatedDiscountInfoV2: {
+                header: "Get items under 59",
+                shortDescriptionList: [
+                  {
+                    meta: "99 store",
+                    discountType: "FinalPrice",
+                    operationType: "RESTAURANT",
+                  },
+                  {
+                    meta: "Flat ₹80 off on orders above ₹199",
+                    discountType: "Flat",
+                    operationType: "RESTAURANT",
+                  },
+                ],
+                descriptionList: [
+                  {
+                    meta: "99 store",
+                    discountType: "FinalPrice",
+                    operationType: "RESTAURANT",
+                  },
+                  {
+                    meta: "Flat ₹80 off on orders above ₹199 | Use code WELCOMEDOM",
+                    discountType: "Flat",
+                    operationType: "RESTAURANT",
+                  },
+                ],
+                couponDetailsCta: "View coupon details",
+              },
+              type: "F",
+              nudgeBanners: [
+                {
+                  priority: 15,
+                  discountInfo: {
+                    discountType: "FinalPrice",
+                    value: 799,
+                  },
+                  unlockedMessage: "Deal of the Day unlocked!",
+                  minItemCount: 1,
+                  maxItemCount: 1,
+                  type: "SILD",
+                  nudgeTagInfo: {
+                    title: "Deal of the Day",
+                    fontName: "FONT_NAME_CONDENSED_BOLD",
+                  },
+                  logoCtx: {},
+                  movComputationType: "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE",
+                },
+              ],
+              headerBanner: {
+                url: "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/24441",
+              },
+              generalPurposeInfoListV2: [
+                {
+                  cta: {
+                    info: {
+                      recordings: {},
+                    },
+                    linkCta: {},
+                  },
+                },
+              ],
+              ratingSlab: "RATING_SLAB_5",
+              orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {},
+                commsStyling: {},
+              },
+              hasBestsellerItems: true,
+              cartOrderabilityNudgeBanner: {
+                parameters: {},
+                presentation: {},
+              },
+              latLong: "18.590404,73.74812799999995",
+              backgroundImageOverlayInfo: {},
+              featuredSectionInfo: {},
+              requestContexts: ["enable_ecosaver", "99store"],
+            },
+          },
+        },
+      },
+      {
+        groupedCard: {
+          cardGroupMap: {
+            REGULAR: {
+              cards: [
+                {
+                  card: {
+                    card: {
+                      itemCards: [
+                        {
+                          card: {
+                            info: {
+                              id: "186282537",
+                              name: "Sourdough Garlic Bread",
+                              category: "Sourdough Range",
+                              description:
+                                "Golden sourdough baked with garlic butter and herbs. Crisp outside, fluffy inside.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/689b6228-8e8b-403f-bf84-6c775744f50e_1f1c3d20-7cbe-4fe4-81ed-2096c2157b58.jpg",
+                              inStock: 1,
+                              isVeg: 1,
+                              price: 21900,
+                              variants: {},
+                              variantsV2: {},
+                              itemAttribute: {
+                                vegClassifier: "VEG",
+                              },
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249050",
+                              menuFilterIds: ["VEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282522",
+                              name: "Sourdough Classic Veg Pizza (Reg)",
+                              category: "Sourdough Range",
+                              description:
+                                "A rich medley of 4 cheeses on classic airy sourdough crust. Airy, cheesy and utterly satisfying. *Leaves subject to availability",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/8/da86eec5-0c04-44c0-9958-bd8cfc610b98_8308debf-4e77-4291-ad5c-c5865ff59965.jpg",
+                              inStock: 1,
+                              isVeg: 1,
+                              finalPrice: 31900,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218324",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820293",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218325",
+                                          variationId: "204820294",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218325",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Regular",
+                                        default: 1,
+                                        id: "204820294",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218324",
+                                        variationId: "204820293",
+                                      },
+                                      {
+                                        groupId: "68218325",
+                                        variationId: "204820294",
+                                      },
+                                    ],
+                                    price: 36900,
+                                    finalPrice: {
+                                      units: "319",
+                                    },
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "VEG",
+                              },
+                              defaultPrice: 36900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  matchText: "SILD",
+                                },
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              itemNudgeType: "FinalPrice",
+                              ratings: {
+                                aggregatedRating: {
+                                  rating: "5.0",
+                                  ratingCount: "3 ratings",
+                                  ratingCountV2: "3",
+                                },
+                                ratingsPresentationConfig: {
+                                  bgGradient: {
+                                    colours: ["#C8F9E5", "#00FFFFFF"],
+                                    gradientDirection:
+                                      "GRADIENT_DIRECTION_LEFT_TO_RIGHT",
+                                  },
+                                  ratingIconColor: "rating_very_good",
+                                  ratingTextColor: "rating_very_good",
+                                  ratingCountTextColor: "rating_very_good",
+                                  ratingFontName:
+                                    "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  ratingCountFontName:
+                                    "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                },
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "cefdc0da-f547-407c-b297-c02024497c67",
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249045",
+                              menuFilterIds: ["VEG", "offer", "toprated"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282525",
+                              name: "Sourdough Classic Truffle Veg Pizza (Reg)",
+                              category: "Sourdough Range",
+                              description:
+                                "Velvety truffle mushroom sauce, golden 4-cheeses on airy sourdough. Creamy, earthy, indulgent.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/b27c5696-fa26-47dc-9d75-c1761085e275_2a99aa9f-d33f-4b9c-93ba-c8a0053601ef.jpg",
+                              inStock: 1,
+                              isVeg: 1,
+                              finalPrice: 31900,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218330",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820299",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218331",
+                                          variationId: "204820300",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218331",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Regular",
+                                        default: 1,
+                                        id: "204820300",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218330",
+                                        variationId: "204820299",
+                                      },
+                                      {
+                                        groupId: "68218331",
+                                        variationId: "204820300",
+                                      },
+                                    ],
+                                    price: 36900,
+                                    finalPrice: {
+                                      units: "319",
+                                    },
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "VEG",
+                              },
+                              defaultPrice: 36900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  matchText: "SILD",
+                                },
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              itemNudgeType: "FinalPrice",
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "cefdc0da-f547-407c-b297-c02024497c67",
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249044",
+                              menuFilterIds: ["VEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282533",
+                              name: "Sourdough Creamy Truffle Mushroom Pizza (Reg)",
+                              category: "Sourdough Range",
+                              description:
+                                "Creamy truffle sauce, mushrooms and jalapeños with 4-cheeses on airy sourdough crust.*Leaves subject to availability",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/8ad9aaf9-7e5f-4793-9b4b-43a5d825ceec_1cd67f13-65e8-4a9d-8471-06b22819de95.jpg",
+                              inStock: 1,
+                              isVeg: 1,
+                              finalPrice: 31900,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218346",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820315",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218347",
+                                          variationId: "204820316",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218347",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Regular",
+                                        default: 1,
+                                        id: "204820316",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218346",
+                                        variationId: "204820315",
+                                      },
+                                      {
+                                        groupId: "68218347",
+                                        variationId: "204820316",
+                                      },
+                                    ],
+                                    price: 41900,
+                                    finalPrice: {
+                                      units: "319",
+                                    },
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "VEG",
+                              },
+                              defaultPrice: 41900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  matchText: "SILD",
+                                },
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              itemNudgeType: "FinalPrice",
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "cefdc0da-f547-407c-b297-c02024497c67",
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249047",
+                              menuFilterIds: ["VEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282535",
+                              name: "Sourdough Pesto Veggie Pizza (Reg)",
+                              category: "Sourdough Range",
+                              description:
+                                "Grilled red & yellow bell peppers, olives and a basil pesto drizzle over classic sourdough topped with 4-cheeses.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/0d42cb15-444f-48a7-954f-862f010dede4_b5a7c398-d91c-4301-b9d8-1419eb737514.jpg",
+                              inStock: 1,
+                              isVeg: 1,
+                              finalPrice: 31900,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218350",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820319",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218351",
+                                          variationId: "204820320",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218351",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Regular",
+                                        default: 1,
+                                        id: "204820320",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218350",
+                                        variationId: "204820319",
+                                      },
+                                      {
+                                        groupId: "68218351",
+                                        variationId: "204820320",
+                                      },
+                                    ],
+                                    price: 41900,
+                                    finalPrice: {
+                                      units: "319",
+                                    },
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "VEG",
+                              },
+                              defaultPrice: 41900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  matchText: "SILD",
+                                },
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              itemNudgeType: "FinalPrice",
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "cefdc0da-f547-407c-b297-c02024497c67",
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249052",
+                              menuFilterIds: ["VEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282521",
+                              name: "Sourdough Fiery Peri Peri Pizza (Reg)",
+                              category: "Sourdough Range",
+                              description:
+                                "Paprika and olives bring a punch of flavour to this fiery, 4-cheese sourdough delight.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/5447d49c-8550-4458-9a74-7fb4a23f0387_d8db5ccf-59a2-4dfd-98fc-dcec745eb475.jpg",
+                              inStock: 1,
+                              isVeg: 1,
+                              finalPrice: 31900,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218322",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820291",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218323",
+                                          variationId: "204820292",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218323",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Regular",
+                                        default: 1,
+                                        id: "204820292",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218322",
+                                        variationId: "204820291",
+                                      },
+                                      {
+                                        groupId: "68218323",
+                                        variationId: "204820292",
+                                      },
+                                    ],
+                                    price: 41900,
+                                    finalPrice: {
+                                      units: "319",
+                                    },
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "VEG",
+                              },
+                              defaultPrice: 41900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  matchText: "SILD",
+                                },
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              itemNudgeType: "FinalPrice",
+                              ratings: {
+                                aggregatedRating: {
+                                  rating: "4.0",
+                                  ratingCount: "1 rating",
+                                  ratingCountV2: "1",
+                                },
+                                ratingsPresentationConfig: {
+                                  bgGradient: {
+                                    colours: ["#C8F9E5", "#00FFFFFF"],
+                                    gradientDirection:
+                                      "GRADIENT_DIRECTION_LEFT_TO_RIGHT",
+                                  },
+                                  ratingIconColor: "rating_very_good",
+                                  ratingTextColor: "rating_very_good",
+                                  ratingCountTextColor: "rating_very_good",
+                                  ratingFontName:
+                                    "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  ratingCountFontName:
+                                    "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                },
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "cefdc0da-f547-407c-b297-c02024497c67",
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249049",
+                              menuFilterIds: ["VEG", "offer", "toprated"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282532",
+                              name: "Sourdough Classic Truffle Pepperoni Pizza (Reg)",
+                              category: "Sourdough Range",
+                              description:
+                                "Succulent chicken pepperoni, truffle mushroom sauce and molten 4-cheeses on airy sourdough. Bold, smoky, irresistible.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/7821e3f9-ae75-4ec6-ba63-bae702a8bb73_86178eef-4b3b-4373-a07c-44a7f7bfa7df.jpg",
+                              inStock: 1,
+                              finalPrice: 31900,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218344",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820313",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218345",
+                                          variationId: "204820314",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218345",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Regular",
+                                        default: 1,
+                                        id: "204820314",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218344",
+                                        variationId: "204820313",
+                                      },
+                                      {
+                                        groupId: "68218345",
+                                        variationId: "204820314",
+                                      },
+                                    ],
+                                    price: 41900,
+                                    finalPrice: {
+                                      units: "319",
+                                    },
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "NONVEG",
+                              },
+                              defaultPrice: 41900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  matchText: "SILD",
+                                },
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              itemNudgeType: "FinalPrice",
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "cefdc0da-f547-407c-b297-c02024497c67",
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249043",
+                              menuFilterIds: ["NONVEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282528",
+                              name: "Sourdough Chicken Pepperoni Pizza (Reg)",
+                              category: "Sourdough Range",
+                              description:
+                                "Chicken pepperoni and 4 cheeses on airy sourdough. Savoury, smoky, an absolute delight.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/7821e3f9-ae75-4ec6-ba63-bae702a8bb73_86178eef-4b3b-4373-a07c-44a7f7bfa7df.jpg",
+                              inStock: 1,
+                              finalPrice: 31900,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218336",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820305",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218337",
+                                          variationId: "204820306",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218337",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Regular",
+                                        default: 1,
+                                        id: "204820306",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218336",
+                                        variationId: "204820305",
+                                      },
+                                      {
+                                        groupId: "68218337",
+                                        variationId: "204820306",
+                                      },
+                                    ],
+                                    price: 41900,
+                                    finalPrice: {
+                                      units: "319",
+                                    },
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "NONVEG",
+                              },
+                              defaultPrice: 41900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  matchText: "SILD",
+                                },
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              itemNudgeType: "FinalPrice",
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "cefdc0da-f547-407c-b297-c02024497c67",
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249042",
+                              menuFilterIds: ["NONVEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282538",
+                              name: "Sourdough Fiery Peri Peri Chicken Pizza (Reg)",
+                              category: "Sourdough Range",
+                              description:
+                                "Grilled chicken rashers with paprika, olives and bold cheeses on airy sourdough. Spicy, tangy, craveable.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/e6d57bd6-be8c-4e91-b2ee-79fc29463b92_64ee11f3-21fe-4d52-8f15-e0231f05bb67.jpg",
+                              inStock: 1,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218354",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820323",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218355",
+                                          variationId: "204820324",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218355",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Regular",
+                                        default: 1,
+                                        id: "204820324",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218354",
+                                        variationId: "204820323",
+                                      },
+                                      {
+                                        groupId: "68218355",
+                                        variationId: "204820324",
+                                      },
+                                    ],
+                                    price: 46900,
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "NONVEG",
+                              },
+                              defaultPrice: 46900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249048",
+                              menuFilterIds: ["NONVEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282518",
+                              name: "Sourdough Pesto Chicken Pizza (Reg)",
+                              category: "Sourdough Range",
+                              description:
+                                "Grilled chicken rashers, olives and a touch of basil pesto over 4-cheeses on airy sourdough. Pure delight.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/c76ec569-9678-4e6d-862c-c2a0af139c66_b49bc4a1-7c1c-418f-a3b6-ce63a4ba11c3.jpg",
+                              inStock: 1,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218316",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820285",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218317",
+                                          variationId: "204820286",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218317",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Regular",
+                                        default: 1,
+                                        id: "204820286",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218316",
+                                        variationId: "204820285",
+                                      },
+                                      {
+                                        groupId: "68218317",
+                                        variationId: "204820286",
+                                      },
+                                    ],
+                                    price: 46900,
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "NONVEG",
+                              },
+                              defaultPrice: 46900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249051",
+                              menuFilterIds: ["NONVEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282520",
+                              name: "Sourdough Creamy Truffle Chicken Pizza (Reg)",
+                              category: "Sourdough Range",
+                              description:
+                                "Creamy truffle mushroom sauce, grilled chicken rashers and jalapeños over 4-cheeses on airy sourdough. Earthy, rich, indulgent.*Leaves subject to availability",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/70fd2b37-e413-4efa-a6fc-28bb6c97c2c8_1abe61d0-b12e-4906-bec7-75e7aa808326.jpg",
+                              inStock: 1,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218320",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820289",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218321",
+                                          variationId: "204820290",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218321",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Regular",
+                                        default: 1,
+                                        id: "204820290",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218320",
+                                        variationId: "204820289",
+                                      },
+                                      {
+                                        groupId: "68218321",
+                                        variationId: "204820290",
+                                      },
+                                    ],
+                                    price: 46900,
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "NONVEG",
+                              },
+                              defaultPrice: 46900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249046",
+                              menuFilterIds: ["NONVEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282527",
+                              name: "Sourdough Slim Classic Veg Pizza (Med)",
+                              category: "Sourdough Range",
+                              description:
+                                "Four rich cheeses on a crisp slim sourdough crust. Light, cheesy and perfectly satisfying.*Leaves subject to availability",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/12313890-b30e-4fcc-9fb6-7f84d5583fef_afb7be1b-44b2-4bb7-9fa3-29beb2650ba7.jpg",
+                              inStock: 1,
+                              isVeg: 1,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218334",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820303",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218335",
+                                          variationId: "204820304",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218335",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Medium",
+                                        default: 1,
+                                        id: "204820304",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218334",
+                                        variationId: "204820303",
+                                      },
+                                      {
+                                        groupId: "68218335",
+                                        variationId: "204820304",
+                                      },
+                                    ],
+                                    price: 56900,
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "VEG",
+                              },
+                              defaultPrice: 56900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249056",
+                              menuFilterIds: ["VEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282524",
+                              name: "Sourdough Slim Classic Truffle Veg Pizza (Med)",
+                              category: "Sourdough Range",
+                              description:
+                                "Velvety truffle mushroom sauce, 4-cheeses and veg pepperoni bites on slim sourdough crust.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/c101a6a7-4095-48e9-b384-eb805dfef8ff_bb9cd20a-16a8-4535-88f1-f4e694325041.jpg",
+                              inStock: 1,
+                              isVeg: 1,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218328",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820297",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218329",
+                                          variationId: "204820298",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218329",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Medium",
+                                        default: 1,
+                                        id: "204820298",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218328",
+                                        variationId: "204820297",
+                                      },
+                                      {
+                                        groupId: "68218329",
+                                        variationId: "204820298",
+                                      },
+                                    ],
+                                    price: 56900,
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "VEG",
+                              },
+                              defaultPrice: 56900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249055",
+                              menuFilterIds: ["VEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282536",
+                              name: "Sourdough Slim Fiery Peri Peri Veg Pizza (Med)",
+                              category: "Sourdough Range",
+                              description:
+                                "Paprika and olives pack a fiery crisp punch with 4-cheeses on slim sourdough crust.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/3aa9a980-2c1e-47bd-9877-a51d5cee1e43_cd4eed83-090c-448b-9065-f0cbb4077c72.jpg",
+                              inStock: 1,
+                              isVeg: 1,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218352",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820321",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218353",
+                                          variationId: "204820322",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218353",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Medium",
+                                        default: 1,
+                                        id: "204820322",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218352",
+                                        variationId: "204820321",
+                                      },
+                                      {
+                                        groupId: "68218353",
+                                        variationId: "204820322",
+                                      },
+                                    ],
+                                    price: 61900,
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "VEG",
+                              },
+                              defaultPrice: 61900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249060",
+                              menuFilterIds: ["VEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282529",
+                              name: "Sourdough Slim Creamy Truffle Mushroom Pizza (Med)",
+                              category: "Sourdough Range",
+                              description:
+                                "Creamy truffle sauce, mushrooms and jalapeños with 4-cheeses on slim sourdough crust.*Leaves subject to availability",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/a00de7a9-026c-4bdb-ad38-868a38942a61_c8bc10e6-4519-4681-9480-3b12abab41cc.jpg",
+                              inStock: 1,
+                              isVeg: 1,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218338",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820307",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218339",
+                                          variationId: "204820308",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218339",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Medium",
+                                        default: 1,
+                                        id: "204820308",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218338",
+                                        variationId: "204820307",
+                                      },
+                                      {
+                                        groupId: "68218339",
+                                        variationId: "204820308",
+                                      },
+                                    ],
+                                    price: 61900,
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "VEG",
+                              },
+                              defaultPrice: 61900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {
+                                  rating: "4.0",
+                                  ratingCount: "1 rating",
+                                  ratingCountV2: "1",
+                                },
+                                ratingsPresentationConfig: {
+                                  bgGradient: {
+                                    colours: ["#C8F9E5", "#00FFFFFF"],
+                                    gradientDirection:
+                                      "GRADIENT_DIRECTION_LEFT_TO_RIGHT",
+                                  },
+                                  ratingIconColor: "rating_very_good",
+                                  ratingTextColor: "rating_very_good",
+                                  ratingCountTextColor: "rating_very_good",
+                                  ratingFontName:
+                                    "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  ratingCountFontName:
+                                    "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                },
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249058",
+                              menuFilterIds: ["VEG", "offer", "toprated"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282523",
+                              name: "Sourdough Slim Pesto Veggie Pizza (Med)",
+                              category: "Sourdough Range",
+                              description:
+                                "Grilled red & yellow bell peppers, olives and a basil pesto drizzle over 4-cheeses on slim sourdough crust.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/d95dffe4-ac6e-4008-b563-7dfe0f227a4f_2d7c55b2-e752-4b25-8c34-1fc6401f029e.jpg",
+                              inStock: 1,
+                              isVeg: 1,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218326",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820295",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218327",
+                                          variationId: "204820296",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218327",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Medium",
+                                        default: 1,
+                                        id: "204820296",
+                                        inStock: 1,
+                                        isVeg: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218326",
+                                        variationId: "204820295",
+                                      },
+                                      {
+                                        groupId: "68218327",
+                                        variationId: "204820296",
+                                      },
+                                    ],
+                                    price: 61900,
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "VEG",
+                              },
+                              defaultPrice: 61900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249062",
+                              menuFilterIds: ["VEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282530",
+                              name: "Sourdough Slim Classic Truffle Pepperoni Pizza (Med)",
+                              category: "Sourdough Range",
+                              description:
+                                "Succulent chicken pepperoni, truffle mushroom sauce and molten 4-cheeses on slim sourdough crust.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/5b5d9847-38f8-4f85-9d77-5a0bea782c2a_99d475f0-901f-4def-8a33-1f0015be3a75.jpg",
+                              inStock: 1,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218340",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820309",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218341",
+                                          variationId: "204820310",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218341",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Medium",
+                                        default: 1,
+                                        id: "204820310",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218340",
+                                        variationId: "204820309",
+                                      },
+                                      {
+                                        groupId: "68218341",
+                                        variationId: "204820310",
+                                      },
+                                    ],
+                                    price: 61900,
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "NONVEG",
+                              },
+                              defaultPrice: 61900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249054",
+                              menuFilterIds: ["NONVEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282531",
+                              name: "Sourdough Slim Chicken Pepperoni Pizza (Med)",
+                              category: "Sourdough Range",
+                              description:
+                                "Smoky chicken pepperoni with 4-cheeses on a thin, slim sourdough crust.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/5b5d9847-38f8-4f85-9d77-5a0bea782c2a_99d475f0-901f-4def-8a33-1f0015be3a75.jpg",
+                              inStock: 1,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218342",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820311",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218343",
+                                          variationId: "204820312",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218343",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Medium",
+                                        default: 1,
+                                        id: "204820312",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218342",
+                                        variationId: "204820311",
+                                      },
+                                      {
+                                        groupId: "68218343",
+                                        variationId: "204820312",
+                                      },
+                                    ],
+                                    price: 61900,
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "NONVEG",
+                              },
+                              defaultPrice: 61900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {
+                                  rating: "5.0",
+                                  ratingCount: "1 rating",
+                                  ratingCountV2: "1",
+                                },
+                                ratingsPresentationConfig: {
+                                  bgGradient: {
+                                    colours: ["#C8F9E5", "#00FFFFFF"],
+                                    gradientDirection:
+                                      "GRADIENT_DIRECTION_LEFT_TO_RIGHT",
+                                  },
+                                  ratingIconColor: "rating_very_good",
+                                  ratingTextColor: "rating_very_good",
+                                  ratingCountTextColor: "rating_very_good",
+                                  ratingFontName:
+                                    "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  ratingCountFontName:
+                                    "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                },
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249053",
+                              menuFilterIds: ["NONVEG", "offer", "toprated"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282519",
+                              name: "Sourdough Slim Pesto Chicken Pizza (Med)",
+                              category: "Sourdough Range",
+                              description:
+                                "Grilled chicken, olives and herby basil pesto swirl over 4-cheeses on slim sourdough crust.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/2abb8841-a23b-4409-ae1f-a4cfad38df9e_345d4798-2ff3-41b4-b2e9-29a5cd349112.jpg",
+                              inStock: 1,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218318",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820287",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218319",
+                                          variationId: "204820288",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218319",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Medium",
+                                        default: 1,
+                                        id: "204820288",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218318",
+                                        variationId: "204820287",
+                                      },
+                                      {
+                                        groupId: "68218319",
+                                        variationId: "204820288",
+                                      },
+                                    ],
+                                    price: 66900,
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "NONVEG",
+                              },
+                              defaultPrice: 66900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249061",
+                              menuFilterIds: ["NONVEG", "offer"],
+                            },
+                          },
+                        },
+                        {
+                          card: {
+                            info: {
+                              id: "186282526",
+                              name: "Sourdough Slim Fiery Peri Peri Chicken Pizza (Med)",
+                              category: "Sourdough Range",
+                              description:
+                                "Grilled chicken, paprika, olives and bold cheeses on slim sourdough. Spicy, tangy, craveable.",
+                              imageId:
+                                "FOOD_CATALOG/IMAGES/CMS/2025/11/7/dc0bf707-8c8c-457d-a91a-ea83a52fa5aa_2a8db22b-7993-4f59-9125-f8a5b27204b3.jpg",
+                              inStock: 1,
+                              variants: {},
+                              variantsV2: {
+                                variantGroups: [
+                                  {
+                                    groupId: "68218332",
+                                    name: "Crust",
+                                    variations: [
+                                      {
+                                        name: "Sourdough",
+                                        default: 1,
+                                        id: "204820301",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                        dependantVariation: {
+                                          groupId: "68218333",
+                                          variationId: "204820302",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    groupId: "68218333",
+                                    name: "Size",
+                                    variations: [
+                                      {
+                                        name: "Medium",
+                                        default: 1,
+                                        id: "204820302",
+                                        inStock: 1,
+                                        isEnabled: 1,
+                                      },
+                                    ],
+                                  },
+                                ],
+                                pricingModels: [
+                                  {
+                                    variations: [
+                                      {
+                                        groupId: "68218332",
+                                        variationId: "204820301",
+                                      },
+                                      {
+                                        groupId: "68218333",
+                                        variationId: "204820302",
+                                      },
+                                    ],
+                                    price: 66900,
+                                  },
+                                ],
+                              },
+                              itemAttribute: {
+                                vegClassifier: "NONVEG",
+                              },
+                              defaultPrice: 66900,
+                              ribbon: {},
+                              showImage: true,
+                              offerTags: [
+                                {
+                                  title: "₹80 OFF",
+                                  subTitle: "USE WELCOMEDOM",
+                                  textColor: "#DB6742",
+                                  backgroundColor: "#FAE8E3",
+                                  matchText: "SILD",
+                                },
+                              ],
+                              itemBadge: {},
+                              badgesV2: {},
+                              ratings: {
+                                aggregatedRating: {},
+                              },
+                              itemPriceStrikeOff: true,
+                              offerIds: [
+                                "863348b9-8e55-4dfe-aac2-7ea97ae738b5",
+                              ],
+                              parentId: "113249059",
+                              menuFilterIds: ["NONVEG", "offer"],
+                            },
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+      },
+    ],
+  },
+};
+
+export default mockMenuData;
