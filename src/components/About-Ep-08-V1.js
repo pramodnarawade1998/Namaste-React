@@ -1,5 +1,17 @@
 import React from "react";
+import User from "./User";
 import UserClass from "./UserClass";
+
+// const About = () => {
+//   return (
+//     <div>
+//       <h1>About</h1>
+//       <h2>This is Namaste React!</h2>
+//       {/* <User name={"Pramod Narawade (Function)"} /> */}
+//       <UserClass name={"Pramod Narawade (Class)"} location={"Pune (Class)"} />
+//     </div>
+//   );
+// };
 
 class About extends React.Component {
   constructor(props) {
@@ -12,10 +24,6 @@ class About extends React.Component {
     console.log("Parent Component Did Mount");
   }
 
-  componentWillUnmount() {
-    console.log("Parent Component Will Unmount");
-  }
-
   render() {
     console.log("Parent Render");
 
@@ -23,7 +31,9 @@ class About extends React.Component {
       <div>
         <h1>About</h1>
         <h2>This is Namaste React!</h2>
+        {/* <User name={"Pramod Narawade (Function)"} /> */}
         <UserClass name={"Pramod Narawade (Class)"} location={"Pune (Class)"} />
+        {/* <UserClass name={"Rohan Patil (Class)"} location={"Amalner (Class)"} /> */}
       </div>
     );
   }
