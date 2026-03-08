@@ -1,9 +1,10 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withOpenedLabel } from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 // import resList from "../utils/mockData";
 
@@ -13,6 +14,8 @@ const Body = () => {
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
 
   const [searchText, setSearchText] = useState("");
+
+  const RestaurantCardOpened = withOpenedLabel(RestaurantCard);
 
   // Whenever State variable update, React triggers a Reconciliation cycle (Re-renders the component)
 
@@ -29,11 +32,13 @@ const Body = () => {
 
     setListOfRestaurants(
       // Optional Chaining
-      json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants,
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+        ?.restaurants,
     );
 
     setFilteredRestaurants(
-      json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants,
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+        ?.restaurants,
     );
   };
 
@@ -51,6 +56,8 @@ const Body = () => {
       </h1>
     );
   }
+
+  const { loggedInUser, setUserName } = useContext(UserContext);
 
   return listOfRestaurants.length === 0 ? (
     <Shimmer />
@@ -81,7 +88,7 @@ const Body = () => {
             Search
           </button>
         </div>
-        <div className="search m-4 p-4">
+        <div className="search m-4 p-4 flex items-center">
           <button
             className="px-4 py-2 m-4 bg-gray-100 rounded-lg"
             onClick={() => {
@@ -94,6 +101,14 @@ const Body = () => {
             Top Rated Restaurants
           </button>
         </div>
+        <div className="search m-4 p-4 flex items-center">
+          <label>UserName : </label>
+          <input
+            className="border border-black p-2"
+            onChange={(e) => setUserName(e.target.value)}
+            value={loggedInUser}
+          />
+        </div>
       </div>
       <div className="flex flex-wrap">
         {filteredRestaurants.map((restaurant) => (
@@ -101,7 +116,12 @@ const Body = () => {
             to={"restaurants/" + restaurant.info.id}
             key={restaurant.info.id}
           >
-            <RestaurantCard resData={restaurant} />
+            {/* If the Restaurant is Promoted, then Add a Promoted Label to it */}
+            {restaurant.info.isOpen ? (
+              <RestaurantCardOpened resData={restaurant} />
+            ) : (
+              <RestaurantCard resData={restaurant} />
+            )}
           </Link>
         ))}
       </div>
